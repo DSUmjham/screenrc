@@ -3,6 +3,8 @@
 When using screen to attach to a USB to Serial (RS232) adapter, a customized screen profile can be handy.  This profile customizes some of the colors, hardstatus bar, and enables copy/paste functionality.
 
 ## Installing the Screen Profile
+You can try downloading the **.screenrc** file and saving it to your home directory. I've had mixed results with this, it's sometimes cleaner to follow the process below:
+
 1. On a Mac or Linux system, create a file in your home directory called **.screenrc**
 ``` terminal
 touch ~/.screenrc
