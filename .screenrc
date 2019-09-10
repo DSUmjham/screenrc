@@ -1,0 +1,12 @@
+altscreen on
+hardstatus on  
+hardstatus alwayslastline  
+startup_message off  
+termcapinfo xterm ti@:te@  
+# hardstatus string " %{= kC}%-w%{.rW}%n %t%{-}%+w %=%{..C} %H %{..C} %m/%d %C%A "
+hardstatus string " %{= kC}%-w%{.cW}%n %t%{-}%+w %= %H %C%A "
+defscrollback 3000
+
+# Bind C-a v to copy buffer to Mac OS X clipboard.
+bind v eval "writebuf" "exec sh -c 'pbcopy < /tmp/screen-exchange'"
+
