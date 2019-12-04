@@ -21,6 +21,8 @@ defscrollback 3000
 
 # Bind C-a v to copy buffer to Mac OS X clipboard.
 bind v eval "writebuf" "exec sh -c 'pbcopy < /tmp/screen-exchange'"
+# Linux Users install xsel, comment ^ line, and uncomment next line
+#bind v eval writebuf 'exec /bin/sh -c "xsel -i -b < /tmp/screen-exchange"' 'exec /bin/sh killall xsel'
 ```
 3. Save the file.
 4. If you have any active screen sessions open you will need to close and relaunch them.  If the profile still does not take effect, you may need to close and reopen the terminal.
