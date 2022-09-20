@@ -15,7 +15,7 @@ altscreen on
 hardstatus on
 hardstatus alwayslastline
 startup_message off
-termcapinfo xterm ti@:te@
+termcapinfo xterm-256color|xterm-color|xterm|xterms|xs|rxvt ti@:te@
 hardstatus string " %{= kC}%-w%{.cW}%n %t%{-}%+w %= %H %C%A "
 defscrollback 3000
 
